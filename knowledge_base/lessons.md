@@ -8,6 +8,14 @@ RULE (a way of working to follow from now on), NOT A BUG, OBSOLETE, or OPEN (not
 
 ---
 
+## [2026-10-29] Work area cleanup must remove its JSON registry record
+
+- **Status:** RULE
+- **Symptom:** After deleting a demo worktree and folder, work list and session_start still showed the workspace.
+- **Cause:** The work area consists of an ignored JSON record under data/workspaces plus its checkout and folder; deleting only the folder leaves the registry stale.
+- **Fix:** Remove data/workspaces/<repo>/<branch-id>.json and verify with work list and session_start.
+- **Rule:** When cleaning up a work area, delete both its checkout/folder and its data/workspaces/<repo>/<branch-id>.json registry record, then verify session_start and work list.
+
 ## [2026-10-25] Text extracted from a PDF was garbage although the pages looked fine
 
 - **Status:** RULE

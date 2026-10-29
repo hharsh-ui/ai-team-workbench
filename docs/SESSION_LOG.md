@@ -1,5 +1,11 @@
 # Session Log
 
+## [2026-10-29] Full specification QC
+
+- Compared all 77 embedded spec file blocks; 76 matched and only the intentional session log differed
+- Verified the stale demo registry cleanup so session and work listings are now clear
+- All 46 tests pass and diagnostics report success
+
 ## [2026-10-29] VS Code workspace completion
 
 - Verified all 46 workbench tests and diagnostics
