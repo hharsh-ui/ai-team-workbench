@@ -1,13 +1,4 @@
 {
   "version": 1,
-  "repositories": {
-    "demo": {
-      "aliases": [],
-      "remote": "",
-      "default_branch": "main",
-      "path": "C:\\Users\\HARSH\\demo",
-      "workflow": "source",
-      "role": ""
-    }
-  }
+  "repositories": {}
 }
