@@ -1,0 +1,21 @@
+# Secrets and local settings
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Local state, work areas (worktrees of other repositories) and PDF source packs
+data/
+working/
+sources/
+
+# Open-source add-ons: pinned clones and the skills copied from them (python scripts/wb.py addons fetch)
+vendor/
+.agents/

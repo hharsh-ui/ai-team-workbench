@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-workbench"
+version = "2.0.0"
+description = "A local workbench for an AI product team (product manager, developer, tester): tools, branch work areas, session log, lessons and PDF source packs."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+pdf = ["pdfplumber>=0.11"]
+
+[project.scripts]
+wb = "agent_workbench.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agent_workbench = ["tools/catalogue.json"]

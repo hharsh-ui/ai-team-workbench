@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "python3 scripts/hooks/guard_commands.py",
+        "windows": "python scripts\\hooks\\guard_commands.py",
+        "timeout": 10
+      }
+    ]
+  }
+}

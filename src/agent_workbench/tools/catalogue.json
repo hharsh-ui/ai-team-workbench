@@ -1,0 +1,11 @@
+{
+  "session_start": {"module": "tools.notes", "function": "session_start", "category": "session", "side_effects": "read"},
+  "session_log_recent": {"module": "tools.notes", "function": "session_log_recent", "category": "session", "side_effects": "read"},
+  "session_log_add": {"module": "tools.notes", "function": "session_log_add", "category": "session", "side_effects": "write"},
+  "lesson_search": {"module": "tools.notes", "function": "lesson_search", "category": "lessons", "side_effects": "read"},
+  "lesson_add": {"module": "tools.notes", "function": "lesson_add", "category": "lessons", "side_effects": "write"},
+  "git_status": {"module": "tools.git_tools", "function": "git_status", "category": "git", "side_effects": "read"},
+  "git_log": {"module": "tools.git_tools", "function": "git_log", "category": "git", "side_effects": "read"},
+  "pdf_source_pack": {"module": "tools.sources", "function": "pdf_source_pack", "category": "sources", "side_effects": "write"},
+  "source_check_numbers": {"module": "tools.sources", "function": "source_check_numbers", "category": "sources", "side_effects": "read"}
+}

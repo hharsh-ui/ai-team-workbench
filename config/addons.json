@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "addons": {
+    "superpowers": {
+      "url": "https://github.com/obra/superpowers.git",
+      "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "version": "v7.0.1",
+      "license": "MIT",
+      "default": true,
+      "purpose": "Engineering method skills: brainstorm, plan, build test-first with sub-agents, debug systematically, verify before claiming done, request and receive code review, finish a branch, write skills",
+      "skills_dir": "skills",
+      "skills": [
+        "brainstorming",
+        "writing-plans",
+        "executing-plans",
+        "subagent-driven-development",
+        "dispatching-parallel-agents",
+        "test-driven-development",
+        "systematic-debugging",
+        "verification-before-completion",
+        "requesting-code-review",
+        "receiving-code-review",
+        "finishing-a-development-branch",
+        "writing-skills"
+      ]
+    },
+    "gstack": {
+      "url": "https://github.com/garrytan/gstack.git",
+      "commit": "749a2382750ef742a7345ee270ab3416c0715b6e",
+      "version": "1.91.201.0",
+      "license": "MIT",
+      "default": true,
+      "purpose": "Specialist reviews read as method references: office hours, CEO, engineering, design and developer-experience plan reviews, code review checklists, QA, test audit, security, release docs, retrospectives",
+      "skills": []
+    },
+    "gbrain": {
+      "url": "https://github.com/garrytan/gbrain.git",
+      "commit": "ca8f3823b674edf41193345e8e8cf42477284216",
+      "version": "0.60.445.0",
+      "license": "MIT",
+      "default": false,
+      "purpose": "Optional long-term memory across projects and agents through an MCP server; the clone is only needed for its documentation",
+      "skills": []
+    }
+  }
+}
